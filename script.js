@@ -5,5 +5,13 @@ colorSelector.onchange = function () {
 };
 
 function toggleDarkMode(){
-    alert("TOGGLE ME ");
+    let content = document.getElementById("content");
+    content.classList.toggle("dark-mode");
+    //alert("TOGGLE ME ");
+}
+
+function teleport(){
+    console.log("TELEPort");
+    let runaway = document.getElementById("runaway");
+    runaway.innerText = "Something else.";
 }
