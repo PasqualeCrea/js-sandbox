@@ -25,7 +25,7 @@ body, html {
     background-color: whitesmoke;
 }
 
-.dark-mode{
+.dark-mode {
     color: white !important;
     background-color: darkslategray !important;
 }
@@ -45,4 +45,25 @@ body, html {
 
 #toggleDM:hover {
     background-color: turquoise;
+}
+
+#runaway {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 2px solid white;
+    outline: none;
+    /* MOVEMENT */
+    transition: all .2s, top .5s, left .5s;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#runaway:hover {
+    background-color: turquoise;
+    border-color: grey;
+    color: black;
 }
